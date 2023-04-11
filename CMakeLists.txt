@@ -8,5 +8,6 @@ conan_basic_setup()
 
 add_executable(myexecutable main.cpp)
 
-target_link_libraries(myexecutable PRIVATE ${CONAN_LIBS})
+# target_link_libraries(myexecutable PRIVATE ${CONAN_LIBS}) # this line doesn't work if conanfile is .py
+target_link_libraries(myexecutable PRIVATE jsoncpp)
 
