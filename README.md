@@ -1,6 +1,6 @@
 # Readme
 
-This is a simple project I created to test conan and ort.
+This is a simple hello world project I created to test conan and ort.
 
 # Requirements:
 Conan version 1.59.0
