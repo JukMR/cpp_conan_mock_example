@@ -2,7 +2,8 @@
 
 This is a simple project I created to test conan and ort.
 
-Conan version used is 1.59.0
+# Requirements:
+Conan version 1.59.0
 
 # Build
 
@@ -12,7 +13,7 @@ In order to build the project:
 - cd build/
 - conan install ..
 - cmake ..
-- make ..
+- make -j$(nproc)
 
 # Execute file
 
